@@ -1,0 +1,48 @@
+
+footer {
+    margin-top: 50px;
+    background-color: $bgcolor;
+
+    h3 {
+        padding-top: 80px;
+        color: #fff;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-family: 'Noto Sans', sans-serif;
+        text-decoration: none;
+        color: #fff;
+        margin: 0;
+    }
+    
+    input {
+        height: 38.4px;
+        width: 300px;
+    }
+
+    button {
+        display: inline;
+    }
+}
+
+.flexContainer2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.extraInfo{
+    ul{
+        font-family: 'Noto Sans',
+        sans-serif;
+        text-decoration: none;
+        color: #fff;
+
+    }
+}
+
+.copyright{
+    margin-top: 50px;
+    text-align: center;
+}

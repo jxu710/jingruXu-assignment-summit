@@ -260,7 +260,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 50px 0;
-  height: 60vh;
+  height: 70vh;
 }
 
 h1 {
@@ -282,7 +282,7 @@ header nav ul {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  top: 0;
+  top: 20px;
   right: 0;
 }
 header nav ul a {
@@ -296,9 +296,10 @@ header nav ul :last-child {
 
 .logo {
   color: #fff;
+  font-size: 1.5rem;
   text-transform: uppercase;
   position: absolute;
-  top: 0;
+  top: 20px;
   left: 0;
   margin-left: 50px;
 }
@@ -369,7 +370,6 @@ button {
 h3 {
   font-size: 1.125rem;
   text-transform: uppercase;
-  text-align: center;
 }
 
 .threeIcon {
@@ -424,7 +424,7 @@ h3 {
   text-decoration: none;
 }
 .authorInfo button {
-  margin-top: 100px;
+  margin-top: 120px;
   margin-left: 0;
 }
 
@@ -442,4 +442,48 @@ h3 {
 .galleryContainer2 ul li {
   -ms-flex-preferred-size: 32%;
       flex-basis: 32%;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #215a6d;
+}
+footer h3 {
+  padding-top: 80px;
+  color: #fff;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+footer p {
+  font-family: "Noto Sans", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  margin: 0;
+}
+footer input {
+  height: 38.4px;
+  width: 300px;
+}
+footer button {
+  display: inline;
+}
+
+.flexContainer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.extraInfo ul {
+  font-family: "Noto Sans", sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+
+.copyright {
+  margin-top: 50px;
+  text-align: center;
 }
