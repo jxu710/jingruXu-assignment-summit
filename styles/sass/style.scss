@@ -1,3 +1,9 @@
-body{
-    background-color: cadetblue;
+@import './partials/setup';
+@import './partials/variables';
+@import './partials/mixins';
+@import './partials/baseStyles';
+@import './partials/header';
+
+button{
+    @include buttonStyle(block,10px 30px);
 }

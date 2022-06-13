@@ -1,0 +1,11 @@
+@mixin buttonStyle ($display,$padding) {
+    display: $display;
+    margin: 0 auto;
+    background-color: $buttonColor;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: $padding;
+    border: none;
+    text-transform: uppercase;
+}

@@ -1,0 +1,50 @@
+header{
+    background-image: url(../summit/summit-assets/asset-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    height: 60vh;
+
+}
+
+h1{
+    font-size: 1.125rem;
+    color: #fff;
+    margin-top: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    span{
+        display: block;
+        font-size: 4rem;
+        font-weight:200;
+        margin: 10px 0;
+    }
+}
+
+nav ul{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    a{
+        text-decoration: none;
+        color: #fff;
+        margin: 0 10px;
+    }
+    :last-child{
+        margin-right: 50px;
+
+    }
+}
+
+.logo{
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+}
+
