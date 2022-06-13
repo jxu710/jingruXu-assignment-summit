@@ -3,7 +3,5 @@
 @import './partials/mixins';
 @import './partials/baseStyles';
 @import './partials/header';
+@import './partials/mainSection';
 
-button{
-    @include buttonStyle(block,10px 30px);
-}
