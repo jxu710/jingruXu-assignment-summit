@@ -57,3 +57,44 @@ h3{
 
 // gallery about contact section
 
+.threeIcon{
+    width: 100vw;
+    background-color: $bgcolor;
+    color: #fff;
+    text-transform: uppercase;
+    ul {
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li{
+            margin: 0 80px;
+        }
+    }
+}
+
+// author's about me section style
+
+.icon{
+    background-color:#f6f6f6;
+}
+.blog{
+    display: flex;
+}
+.authorPhoto{
+    width: 30%;
+    img{
+        width: 100%;
+    }
+}
+.authorInfo{
+    width: 70%;
+    margin-left: 20px;
+    p{
+        font-family: 'Noto Sans',sans-serif;
+        text-decoration: none;
+    };
+    button{
+        margin: 0;
+    }
+}

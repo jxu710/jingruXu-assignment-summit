@@ -277,7 +277,7 @@ h1 span {
   margin: 10px 0;
 }
 
-nav ul {
+header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -285,12 +285,12 @@ nav ul {
   top: 0;
   right: 0;
 }
-nav ul a {
+header nav ul a {
   text-decoration: none;
   color: #fff;
   margin: 0 10px;
 }
-nav ul :last-child {
+header nav ul :last-child {
   margin-right: 50px;
 }
 
@@ -370,4 +370,55 @@ h3 {
   font-size: 1.125rem;
   text-transform: uppercase;
   text-align: center;
+}
+
+.threeIcon {
+  width: 100vw;
+  background-color: #215a6d;
+  color: #fff;
+  text-transform: uppercase;
+}
+.threeIcon ul {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.threeIcon ul li {
+  margin: 0 80px;
+}
+
+.icon {
+  background-color: #f6f6f6;
+}
+
+.blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.authorPhoto {
+  width: 30%;
+}
+.authorPhoto img {
+  width: 100%;
+}
+
+.authorInfo {
+  width: 70%;
+  margin-left: 20px;
+}
+.authorInfo p {
+  font-family: "Noto Sans", sans-serif;
+  text-decoration: none;
+}
+.authorInfo button {
+  margin: 0;
 }
