@@ -402,6 +402,7 @@ h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 50px;
 }
 
 .authorPhoto {
@@ -415,10 +416,30 @@ h3 {
   width: 70%;
   margin-left: 20px;
 }
+.authorInfo h2 {
+  margin-top: 0;
+}
 .authorInfo p {
   font-family: "Noto Sans", sans-serif;
   text-decoration: none;
 }
 .authorInfo button {
-  margin: 0;
+  margin-top: 100px;
+  margin-left: 0;
+}
+
+.galleryContainer2 {
+  margin-top: 50px;
+}
+.galleryContainer2 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.galleryContainer2 ul li {
+  -ms-flex-preferred-size: 32%;
+      flex-basis: 32%;
 }
