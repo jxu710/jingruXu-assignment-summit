@@ -1,0 +1,109 @@
+@media(max-width:650px){
+
+    header nav ul{
+        flex-direction: column;
+        a{
+            opacity: 0;
+        }
+        li:last-child{
+            display: none;
+        }
+    }
+    .line{
+        border-top: 5px solid white;
+        width:50px;
+        line-height: 10px;
+        margin-right: 20px;
+    }
+
+    .about{
+        width: 100%;
+        height: 40vh;
+        h2{
+            font-size: 2.5rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+    }
+    
+    .flexContainer1{
+        flex-direction: column;
+        img, .pictureInfo{
+            width: 100%;
+        }
+
+        h3{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+    }
+
+    .threeIcon ul{
+        flex-direction: column;
+        font-size: 2rem;
+        line-height: 50px;
+    }
+
+    .blog{
+        flex-direction: column;
+        text-align: center;
+        h2{
+            font-size: 2.5rem;
+            margin-top: 30px;
+        }
+        button{
+            margin: 0 auto;
+        }
+    }
+    
+    .authorPhoto, .authorInfo{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .galleryContainer2{
+        ul{
+            width: 100%;
+            li{
+                flex-basis: 50%;
+            }
+            li:last-child{
+                display: none;
+            }
+
+        }
+    }
+
+    .flexContainer2{
+        flex-direction: column;
+        text-align: center;
+        h3{
+            font-size: 2rem;
+        }
+
+    form{
+        width: 100%;
+        margin-bottom: 0;
+        input, button{
+            width: 100%;
+            text-align: center;
+        }
+
+    .extraInfo{
+        h3{
+            font-size: 2rem;
+            margin: 0 auto;
+        }
+        ul{
+            font-size: 1.5rem;
+        }
+    }
+
+    }
+
+    }
+
+}

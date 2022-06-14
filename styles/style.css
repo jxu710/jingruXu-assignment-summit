@@ -486,4 +486,121 @@ footer button {
 .copyright {
   margin-top: 50px;
   text-align: center;
+  background-color: black;
+  opacity: 0.5;
+}
+
+@media (max-width: 650px) {
+  header nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header nav ul a {
+    opacity: 0;
+  }
+  header nav ul li:last-child {
+    display: none;
+  }
+
+  .line {
+    border-top: 5px solid white;
+    width: 50px;
+    line-height: 10px;
+    margin-right: 20px;
+  }
+
+  .about {
+    width: 100%;
+    height: 40vh;
+  }
+  .about h2 {
+    font-size: 2.5rem;
+  }
+  .about p {
+    font-size: 1.5rem;
+  }
+
+  .flexContainer1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .flexContainer1 img, .flexContainer1 .pictureInfo {
+    width: 100%;
+  }
+  .flexContainer1 h3 {
+    font-size: 2rem;
+  }
+  .flexContainer1 p {
+    font-size: 1.5rem;
+  }
+
+  .threeIcon ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 2rem;
+    line-height: 50px;
+  }
+
+  .blog {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .blog h2 {
+    font-size: 2.5rem;
+    margin-top: 30px;
+  }
+  .blog button {
+    margin: 0 auto;
+  }
+
+  .authorPhoto, .authorInfo {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .galleryContainer2 ul {
+    width: 100%;
+  }
+  .galleryContainer2 ul li {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .galleryContainer2 ul li:last-child {
+    display: none;
+  }
+
+  .flexContainer2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .flexContainer2 h3 {
+    font-size: 2rem;
+  }
+  .flexContainer2 form {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .flexContainer2 form input, .flexContainer2 form button {
+    width: 100%;
+    text-align: center;
+  }
+  .flexContainer2 form .extraInfo h3 {
+    font-size: 2rem;
+    margin: 0 auto;
+  }
+  .flexContainer2 form .extraInfo ul {
+    font-size: 1.5rem;
+  }
 }
